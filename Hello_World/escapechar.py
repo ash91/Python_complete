@@ -6,4 +6,8 @@ print(tabbedString)
 
 print('The pet shop owner said "No, no, \'e\'s uh,...he\'s resting".')
 #or
-print("THe pet shop owner said \"No, no, 'e's uh,...he's resting\".")
+print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
+
+print(""" The pet shop owner said "No, no, 'e's uh,...he's resting".""")
+
+#While using triple quotes there is no need to use escape char('\')
