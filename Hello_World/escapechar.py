@@ -11,3 +11,8 @@ print("The pet shop owner said \"No, no, 'e's uh,...he's resting\".")
 print(""" The pet shop owner said "No, no, 'e's uh,...he's resting".""")
 
 #While using triple quotes there is no need to use escape char('\')
+
+print("C:\\Users\\ashish\\notes.txt")
+#Here we are escaping backslash with a backslash
+print(r"C:\Users\ashish\notes.txt")
+#r stangs for raw string formatter
