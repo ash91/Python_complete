@@ -6,6 +6,5 @@ print("hello" + " world")
 greeting = "Hello"
 name = input("Please enter your name ")
 print(greeting + name)
-
 # if we want a space, we can add that too
 print(greeting + ' ' + name)
