@@ -47,6 +47,10 @@ print(type(20 + 10.0))
 
 
 # complex
+
+print(bin(6))
+print(int('0b110', 2))
+
 # str 
 # bool 
 # list 
