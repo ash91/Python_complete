@@ -21,7 +21,8 @@ print(5 % 4)
 # Operator precedence
 # ()
 # **
-
+# * /
+# + -
 
 print((20 + ((4 * 3) - 5) )/ 3)
 # Math Functions
