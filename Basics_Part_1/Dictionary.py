@@ -9,4 +9,21 @@ In Python, a Dictionary can be created by placing sequence of elements within cu
 
 Note – Dictionary keys are case sensitive, same name but different cases of Key will be treated distinctly.'''
 
+dictionary = {'a': [1,2,3,4],'b':['apple', 'mango', 'grapes'],'c':['scooter','bike', 'car'],'d':{88:'icici',45:'meme'}}
+print(dictionary['d'][45])
 
+
+my_list = [
+    {
+        'a':[1,2,3],
+        'b':'hello',
+        'c':True
+    }, 
+    {
+        'a':[4,5,6],
+        'b':'world',
+        'c':True  
+    }
+]
+print(my_list[0]['a'][2])
+print(my_list[1]['b'])
