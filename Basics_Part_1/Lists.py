@@ -21,3 +21,18 @@ print(thislist)
 li = [1,2,3,4,5]
 li2 = ['a','b','c']
 li3 = [1,2,'a', True]
+
+# List SLicing
+
+amazon_cart = ['notebooks', 'watches', 'computer', 'television', 'furniture']
+
+print(amazon_cart[:1:-1])
+
+# List are mutable
+
+amazon_cart[0] = 'Laptop'
+new_cart = amazon_cart[:] # WHen we do list slicing it copies contents of list and in this line content of amazon_cart is copied to new_cart
+#new_cart = amazon_cart # We are Assigning contenets of amazon_cart which are in memeory to new_cart
+new_cart[0] = 'Chair'
+print(new_cart)
+print(amazon_cart)
