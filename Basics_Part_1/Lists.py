@@ -12,8 +12,12 @@ Lists are created using square brackets:'''
 
 # List Items
 # List items are ordered, changeable, and allow duplicate values.
-
+#List casn hold multiple data types
 # List items are indexed, the first item has index [0], the second item has index [1] etc.
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
+
+li = [1,2,3,4,5]
+li2 = ['a','b','c']
+li3 = [1,2,'a', True]
