@@ -12,6 +12,7 @@ Note – Dictionary keys are case sensitive, same name but different cases of Ke
 dictionary = {'a': [1,2,3,4],'b':['apple', 'mango', 'grapes'],'c':['scooter','bike', 'car'],'d':{88:'icici',45:'meme'}}
 print(dictionary['d'][45])
 
+# Keys in dictionary must be unique
 
 my_list = [
     {
@@ -27,3 +28,17 @@ my_list = [
 ]
 print(my_list[0]['a'][2])
 print(my_list[1]['b'])
+
+# Dictionary Methods
+
+user = {
+
+    'basket': [1,2,3],
+    'greet' : 'hello'
+}
+user2 = dict(name='Ashish')
+print(user.get('age' ,60))
+print(user2)
+
+
+
