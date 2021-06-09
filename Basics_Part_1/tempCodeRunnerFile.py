@@ -1,4 +1,2 @@
 
-    {
-        'a':[1,2,3],
-        'b':'hello',
+print(my_new_set.intersection(second_set))
