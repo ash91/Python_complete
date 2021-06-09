@@ -9,36 +9,43 @@ In Python, a Dictionary can be created by placing sequence of elements within cu
 
 Note – Dictionary keys are case sensitive, same name but different cases of Key will be treated distinctly.'''
 
-dictionary = {'a': [1,2,3,4],'b':['apple', 'mango', 'grapes'],'c':['scooter','bike', 'car'],'d':{88:'icici',45:'meme'}}
-print(dictionary['d'][45])
+# dictionary = {'a': [1,2,3,4],'b':['apple', 'mango', 'grapes'],'c':['scooter','bike', 'car'],'d':{88:'icici',45:'meme'}}
+# print(dictionary['d'][45])
 
 # Keys in dictionary must be unique
 
-my_list = [
-    {
-        'a':[1,2,3],
-        'b':'hello',
-        'c':True
-    }, 
-    {
-        'a':[4,5,6],
-        'b':'world',
-        'c':True  
-    }
-]
-print(my_list[0]['a'][2])
-print(my_list[1]['b'])
+# my_list = [
+#     {
+#         'a':[1,2,3],
+#         'b':'hello',
+#         'c':True
+#     }, 
+#     {
+#         'a':[4,5,6],
+#         'b':'world',
+#         'c':True  
+#     }
+# ]
+# print(my_list[0]['a'][2])
+# print(my_list[1]['b'])
 
 # Dictionary Methods
 
 user = {
 
     'basket': [1,2,3],
-    'greet' : 'hello'
+     'greet' : 'hello'
 }
-user2 = dict(name='Ashish')
-print(user.get('age' ,60))
-print(user2)
+# user2 = dict(name='Ashish')
+# print(user.get('age' ,60))
+
+user3 = user.copy()
+# print('basket' in user.keys())
+# print(user.items())
+print(user.popitem())
+
+print(user3)
+
 
 
 
