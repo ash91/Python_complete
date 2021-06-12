@@ -42,6 +42,7 @@ else:
     print("Atleast one number has boolean value as False")
 
 
+# Excercise
 
 is_magician = False
 is_expert = False
@@ -52,3 +53,11 @@ elif is_magician or is_expert:
     print("At least you're getting there")
 else:
     print("You need magic power")
+
+
+print(True == 1)
+print('' ==1)
+print([] ==1)
+print(10 == 10.0)
+print([] == []
+)
