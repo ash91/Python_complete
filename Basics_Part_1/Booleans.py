@@ -1,4 +1,4 @@
-#booleans
+# booleans
 is_num = True
 is_all = False
 print(is_num)

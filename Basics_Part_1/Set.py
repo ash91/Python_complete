@@ -2,17 +2,17 @@
 
 '''A Set is an unordered collection data type that is iterable, mutable and has no duplicate elements. Python’s set class represents the mathematical notion of a set. The major advantage of using a set, as opposed to a list, is that it has a highly optimized method for checking whether a specific element is contained in the set. This is based on a data structure known as a hash table. Since sets are unordered, we cannot access items using indexes like we do in lists.'''
 
-my_set = {1,2,3,4,5,5}
+my_set = {1, 2, 3, 4, 5, 5}
 my_set.add(100)
 my_set.add(7)
 print(my_set)
 
 # Converting List into set
 
-my_list = [1,2,3,4,5,5,6,6]
+my_list = [1, 2, 3, 4, 5, 5, 6, 6]
 print(set(my_list))
 
-# Sets does not support slicing 
+# Sets does not support slicing
 
 print(list(my_set))
 
@@ -37,8 +37,8 @@ print(list(my_set))
 # union()	                                    Return a set containing the union of sets
 # update()	                                    Update the set with another set, or any other iterable
 
-my_new_set = {1,2,3,4,5}
-second_set = {4,5,6,7,8,9,10}
+my_new_set = {1, 2, 3, 4, 5}
+second_set = {4, 5, 6, 7, 8, 9, 10}
 
 # print(my_new_set.difference(second_set))
 # print(my_new_set.discard(5))

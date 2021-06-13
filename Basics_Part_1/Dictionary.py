@@ -19,11 +19,11 @@ Note – Dictionary keys are case sensitive, same name but different cases of Ke
 #         'a':[1,2,3],
 #         'b':'hello',
 #         'c':True
-#     }, 
+#     },
 #     {
 #         'a':[4,5,6],
 #         'b':'world',
-#         'c':True  
+#         'c':True
 #     }
 # ]
 # print(my_list[0]['a'][2])
@@ -33,8 +33,8 @@ Note – Dictionary keys are case sensitive, same name but different cases of Ke
 
 user = {
 
-    'basket': [1,2,3],
-     'greet' : 'hello'
+    'basket': [1, 2, 3],
+    'greet': 'hello'
 }
 # user2 = dict(name='Ashish')
 # print(user.get('age' ,60))
@@ -45,7 +45,3 @@ user3 = user.copy()
 print(user.popitem())
 
 print(user3)
-
-
-
-

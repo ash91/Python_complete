@@ -15,7 +15,7 @@ print(27 / 6)
 print(2 ** 2)
 print(5 // 4)
 
-#Modulo - Gives Remainder
+# Modulo - Gives Remainder
 print(5 % 4)
 
 # Operator precedence
@@ -24,7 +24,7 @@ print(5 % 4)
 # * /
 # + -
 
-print((20 + ((4 * 3) - 5) )/ 3)
+print((20 + ((4 * 3) - 5)) / 3)
 # Math Functions
 
 print(round(3.7))
@@ -40,7 +40,7 @@ print(abs(3.1))
 
 # float
 
-#float takes lot more memory than integers
+# float takes lot more memory than integers
 
 print(type(0.001 * 0.22))
 print(type(20 + 10.0))
@@ -51,19 +51,16 @@ print(type(20 + 10.0))
 print(bin(6))
 print(int('0b110', 2))
 
-# str 
-# bool 
-# list 
+# str
+# bool
+# list
 # tuple
-# set 
-# dict 
+# set
+# dict
 # None
- 
 
 
-#CLasses -> custom types
+# CLasses -> custom types
 
 
-#Specialized Data Types ->modules
-
-
+# Specialized Data Types ->modules

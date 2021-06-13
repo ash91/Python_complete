@@ -12,15 +12,15 @@ Lists are created using square brackets:'''
 
 # List Items
 # List items are ordered, changeable, and allow duplicate values.
-#List casn hold multiple data types
+# List casn hold multiple data types
 # List items are indexed, the first item has index [0], the second item has index [1] etc.
 
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 
-li = [1,2,3,4,5]
-li2 = ['a','b','c']
-li3 = [1,2,'a', True]
+li = [1, 2, 3, 4, 5]
+li2 = ['a', 'b', 'c']
+li3 = [1, 2, 'a', True]
 
 # List SLicing
 
@@ -31,8 +31,9 @@ print(amazon_cart[:1:-1])
 # List are mutable
 
 amazon_cart[0] = 'Laptop'
-new_cart = amazon_cart[:] # WHen we do list slicing it copies contents of list and in this line content of amazon_cart is copied to new_cart
-#new_cart = amazon_cart # We are Assigning contenets of amazon_cart which are in memeory to new_cart
+# WHen we do list slicing it copies contents of list and in this line content of amazon_cart is copied to new_cart
+new_cart = amazon_cart[:]
+# new_cart = amazon_cart # We are Assigning contenets of amazon_cart which are in memeory to new_cart
 new_cart[0] = 'Chair'
 print(new_cart)
 print(amazon_cart)
