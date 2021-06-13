@@ -17,18 +17,18 @@
 # The below examples demonstrates how to declare and access a docstring.
 
 
-
-#Example 1: Using triple single quotes
+# Example 1: Using triple single quotes
 
 
 def my_function():
     '''Demonstrates triple double quotes
     docstrings and does nothing really.'''
-   
+
     return None
-  
+
+
 print("Using __doc__:")
 print(my_function.__doc__)
-  
+
 print("Using help:")
 help(my_function)

@@ -1,4 +1,4 @@
-is_old =True
+is_old = True
 is_licenses = False
 
 if is_old and is_licenses:

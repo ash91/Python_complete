@@ -5,22 +5,23 @@
 
 # Syntax :
 
-# [on_true] if [expression] else [on_false] 
+# [on_true] if [expression] else [on_false]
 
-#Simple Method to use ternary operator:
+# Simple Method to use ternary operator:
 
 # Program to demonstrate conditional operator
 a, b = 10, 20
-  
+
 # Copy value of a in min if a < b else copy b
 min = a if a < b else b
-  
+
 print(min)
 
 
 # SHort Circuting
 
 is_Friend = True
-is_User =False
+is_User = False
 
-print(is_Friend or is_User) # Here is_User is not checked because or requires any one to be True.
+# Here is_User is not checked because or requires any one to be True.
+print(is_Friend or is_User)

@@ -27,9 +27,13 @@ def functionname( parameters ):
 #Parameters & Arguments
 # Parameters are used when we define a function and Arguments are used when we call a function.
 # Positional parameter and Arguments
-def say_hello(name,city):  # These are function parameters
+
+
+def say_hello(name, city):  # These are function parameters
     print(f"hello {name} are you from {city}")
-say_hello('ashish' ,'hyderabad') # These are arguments
+
+
+say_hello('ashish', 'hyderabad')  # These are arguments
 
 
 # picture = [
