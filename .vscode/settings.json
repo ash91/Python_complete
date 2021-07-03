@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/ashish/anaconda3/bin/python",
+    "python.pythonPath": "/bin/python",
     "python.formatting.provider": "autopep8",
     "python.linting.enabled": true
 }
